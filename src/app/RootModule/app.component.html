@@ -1,0 +1,6 @@
+<div class="main-container">
+  <!-- <app-card *ngFor="let user of users | async"></app-card> -->
+  <div *ngFor="let user of users | async">
+    <app-card [user]="user"></app-card>
+  </div>
+</div>
